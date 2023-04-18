@@ -5,6 +5,8 @@ if not defined VENV_DIR (set "VENV_DIR=%~dp0%venv")
 
 
 set ERROR_REPORTING=FALSE
+set HTTP_PROXY=http://127.0.0.1:10809
+set HTTPS_PROXY=http://127.0.0.1:10809
 
 mkdir tmp 2>NUL
 
